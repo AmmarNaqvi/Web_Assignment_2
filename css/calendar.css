@@ -1,0 +1,99 @@
+@charset "utf-8";
+.calendar {
+	height: inherit;
+	width: inherit;
+	position: absolute;
+	background-color: #333333;
+	border-radius: 5%;
+}
+.dateVal {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	color: #ababab;
+	font-weight: 300;
+	font-size: 94px;
+}
+.day {
+	position: absolute;
+	top: 75%;
+	left: 15%;
+	color: #ababab;
+	font-size: 36px;
+}
+.month {
+	height: 25%;
+	width: 100%;
+	background-color: #333333;
+	border-radius: 12px 12px 0px 0px;
+}
+.glyphicon.glyphicon-chevron-left {
+	position: absolute;
+	color: #ffffff;
+	height: 25%;
+	width: 20%;
+	left: 0;
+	padding-top: 10%;
+}
+.glyphicon.glyphicon-chevron-right {
+	position: absolute;
+	color: #ffffff;
+	height: 25%;
+	width: 20%;
+	right: 0;
+	padding-top: 10%;
+}
+.monthName {
+	text-transform: uppercase;
+	color: #ababab;
+	font-size: 32px;
+	height: 100%;
+	padding-top: 5%;
+}
+.weekdays {
+	height: 60%;
+	width: 100%;
+	background-color: #ffffff;
+	opacity: .5;
+}
+.weekdays ul {
+	list-style: none;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	padding-left: 2%;
+}
+.weekdays ul li {
+	float: left;
+	width: 1.7em;
+	height: 1.5em;
+	font-size: 24px;
+	color: #333333;
+	text-shadow: 0 0 7px #111111;
+	background-color: #ffffff;
+}
+.dates {
+	margin: 0;
+	height: 240%;
+	width: 100%;
+	background-color: #333333;
+	border-radius: 0px 0px 12px 12px;
+}
+
+.dates ul {
+	list-style: none;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	padding-left: 2%;
+}
+
+.dates ul li {
+	float: left;
+	width: 2.1em;
+	height: 1.4em;
+	font-size: 20px;
+	color: #ababab;
+	text-shadow: 0 0 7px #111111;
+	background-color: #333333;
+}

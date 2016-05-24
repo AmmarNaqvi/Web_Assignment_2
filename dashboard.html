@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="js/jquery.js"> </script>
+<script src="js/clock.js"> </script>
+<script src="js/calendar.js"> </script>
+<script src="js/weather.js"> </script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<title>Dashboard</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href="css/clock.css" rel="stylesheet" type="text/css">
+<link href="css/dashboard.css" rel="stylesheet" type="text/css">
+<link href="css/calendar.css" rel="stylesheet" type="text/css">
+<link href="css/weather.css" rel="stylesheet" type="text/css">
+<link href="css/weather-icons.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrapperDiv">
+	<h1> Web Engineering </h1>
+	<h2> Assignment 2 </h2>
+	<div class="widgetDiv" id="calendarDiv">
+		<div class="calendar">
+			<div class="date">
+				<div class="monthName">
+				</div>
+				<div class="dateVal">
+				</div>
+				<div class="day">
+				</div>
+			</div>
+			<div class="month">
+				<div class="glyphicon glyphicon-chevron-left" id="left"></div>
+				<div class="monthName"></div>
+				<div class="glyphicon glyphicon-chevron-right" id="right"></div>
+				<div class="weekdays">
+					<ul>
+					</ul>
+				</div>
+				<div class="dates">
+					<ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="widgetDiv" id="clockDiv">
+		<div class="clock">
+			<div class="analogDiv">
+				<div class="numbers">
+					<ul>
+					</ul>
+				</div>
+				<div class="hand-hour" id="analoghour"></div>
+				<div class="hand-minute" id="analogminute"></div>
+				<div class="hand-second" id="analogsecond"></div>
+				<div class="center"> </div>
+				<div class="digitDiv time"> </div>
+				<div class="digitDiv period"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="widgetDiv" id="weatherDiv">
+		<div class="weather">
+			<div class="forecast">
+				<ul>
+				</ul>
+			</div>
+			<div class="today">
+				<div class="temp">
+					<div class="tempVal"> </div>
+					<div class="tempDeg"> </div>
+					<div class="tempUnit"> </div>
+				</div>
+				<div class="weatherText"> </div>
+				<div class="weatherIcon"> <i id="iconClass" class="wi"></i> </div>
+				<div class="city"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+
+</script>
+</body>
+</html>
